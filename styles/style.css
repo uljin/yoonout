@@ -7,23 +7,30 @@
     box-sizing: border-box;
 }
 
-body, html {
-	font-family: 'SUIT', sans-serif, system-ui;
-    font-size: 100%;
+html, body {
 	margin: 0;
-	padding: 0;
-	width: 100%;
-    height: 100vh;
+	padding 0;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'SUIT', sans-serif, system-ui;
+	font-size: 100%;
+	padding: 24px;
 	background-color: #cacaca;
 	color: #1f1f1f;
-	display: flex;
-	align-items: center;
-    flex-direction: column;
-    line-height: 2;
+	line-height: 1.8;
+}
+
+.content {
+    flex: 1; /* 남는 공간을 차지하게 설정 */
 }
 
 p {
-	font-family: 'Eulyoo1945' !important;
+	font-family: 'Eulyoo1945', serif !important;
 	line-height: 1.5;
 	color: #333;
 	margin: 1rem 0;
