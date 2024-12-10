@@ -9,7 +9,7 @@
 
 html, body {
 	margin: 0;
-	padding 0;
+	padding: 0;
 	height: 100%;
 }
 
@@ -25,17 +25,12 @@ body {
 	line-height: 1.8;
 }
 
-.content {
-    flex: 1; /* 남는 공간을 차지하게 설정 */
-}
-
 p {
 	font-family: 'Eulyoo1945', serif !important;
 	line-height: 1.5;
 	color: #333;
 	margin: 1rem 0;
 }
-
 
 header {
 	padding: 1rem;
@@ -46,13 +41,4 @@ img {
 	width: 100%;
 	max-width: 512px;
 	height: auto;
-}
-
-footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	font-size: 0.7rem;
-	text-align: center;
-	padding: 10px 0;
 }
