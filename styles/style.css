@@ -26,8 +26,6 @@ body {
 }
 
 p {
-	font-family: 'Eulyoo1945', serif !important;
-	line-height: 1.5;
 	color: #333;
 	margin: 1rem 0;
 }
@@ -43,11 +41,9 @@ img {
 	height: auto;
 }
 
-div:has(> blockquote) {
-  background-color: #ededed;
-  margin: 10px auto;
-  padding: 15px;
-  border-radius: 5px;
+blockquote {
+  margin: 0px auto;
+  padding: 0px;
 }
 
 blockquote p::before {
@@ -61,4 +57,3 @@ blockquote p::after {
 blockquote + p {
   text-align: right;
 }
-
