@@ -4,46 +4,61 @@
 @import url('//cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	font-family: 'SUIT', sans-serif, system-ui;
-	font-size: 100%;
-	padding: 24px;
-	background-color: #cacaca;
-	color: #1f1f1f;
-	line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'SUIT', sans-serif, system-ui;
+  font-size: 100%;
+  padding: 24px;
+  background-color: #cacaca;
+  color: #1f1f1f;
+  line-height: 1.8;
 }
 
 p {
-	font-family: 'Eulyoo1945', serif;
-	color: #333;
+  font-family: 'Eulyoo1945', serif;
+  color: #333;
 }
 
 header {
-	padding: 1rem;
-	text-align: center;
+  padding: 1rem;
+  text-align: center;
 }
 
 img {
-	width: 100%;
-	max-width: 512px;
-	height: auto;
+  width: 100%;
+  max-width: 512px;
+  height: auto;
 }
 
 a {
-	color: #483D8B;
-	text-decoration: none;
+  color: #483D8B;
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: square;
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 blockquote {
