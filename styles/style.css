@@ -41,6 +41,12 @@ img {
 	height: auto;
 }
 
+a {
+	background: #9ACD32;
+	color: inherit;
+	text-decoration: none;
+}
+
 blockquote {
   margin: 0px auto;
   padding: 0px;
