@@ -56,6 +56,19 @@
       <br>
       <h3>후원 계좌</h3>
       <p>농협 351-1344-8936-23 최ㅇ희(윤석열탄핵울진군민행동)</p>
+      <button id="copy-button">계좌 복사하기</button>
+      <script>
+        document.getElementById("copy-button").addEventListener("click", function() {
+        const accountText = "3511344893623";
+        const tempInput = document.createElement("textarea");
+        tempInput.value = accountText;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        alert("계좌 번호가 복사되었습니다.");
+        });
+      </script>
       <br>
       <br>
       <h3>집회 포스터</h3>
