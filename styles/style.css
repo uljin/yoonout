@@ -76,3 +76,16 @@ blockquote p::after {
 blockquote + p {
   text-align: right;
 }
+
+#copy-button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#copy-button:hover {
+  background-color: #45a049;
+}
