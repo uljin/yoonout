@@ -26,6 +26,7 @@ body {
 }
 
 p {
+  word-break: keep-all;
   font-family: 'Eulyoo1945', serif;
   color: #333;
 }
