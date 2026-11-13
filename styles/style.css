@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-@import url('//cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css');
-@import url('//cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css');
+@import url('https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css');
+@import url('https://cdn.jsdelivr.net/gh/sunghyunzz/eulyoo1945/eulyoo1945.css');
 
 * {
   box-sizing: border-box;
@@ -37,9 +37,11 @@ header {
 }
 
 img {
+  display: block;
   width: 100%;
   max-width: 512px;
   height: auto;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -89,4 +91,63 @@ blockquote + p {
 
 #copy-button:hover {
   background-color: #45a049;
+}
+
+/* ── 레이아웃 ─────────────────────────── */
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0 8rem;
+}
+
+main > section {
+  margin-top: 4rem;
+}
+
+/* ── 성명서 카드 ───────────────────────── */
+.statement {
+  padding: 16px 24px 32px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.statement p {
+  margin: 0 0 0.6em;
+}
+
+.center {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 0.5em;
+}
+
+.statement .lead {
+  margin-top: 2em;
+}
+
+.statement .lead + .center {
+  margin-bottom: 3em;
+}
+
+.statement .subhead {
+  margin-top: 2.2em;
+}
+
+.statement .sign {
+  margin-top: 4em;
+}
+
+@media (max-width: 520px) {
+  body {
+    padding: 16px;
+  }
+
+  .statement {
+    padding: 12px 16px 24px;
+  }
 }
